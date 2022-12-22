@@ -6,7 +6,7 @@ import TodoItem from './TodoItem';
 type TodolistProps = {
   todos: Todo[];
   onToggle:(id:number) => void;
-  onremove:(id:number) => void;
+  onRemove:(id:number) => void;
 }
 const TodoList = ({todos, onToggle, onRemove} : TodolistProps) => {
   if(todos.length === 0)
